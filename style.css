@@ -1,3 +1,112 @@
-body {
-    background-color: aqua;
+:root {
+    --primary-color: #0d2b8dad;
+    --secondary-color: #550c99;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --primary-font-color: #000000;
+    --secondary-font-color: #ffff;
 }
+
+
+body {
+    background-color: var(--primary-color);
+    font-family: var(--primary-font);
+    padding: 0 30px;
+}
+
+header{
+    margin-bottom: 10px;
+    padding: 0 10px 5px 10px;
+    background-color: var(--secondary-color);
+}
+
+.navbar {
+    text-align: center;
+    height: auto;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    align-items: stretch;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0 10px;
+    width: 100px;
+    padding: 5px 5px;
+    align-content: center;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: var(--secondary-font-color);
+    display: block;
+    align-content: center;
+    height: 100%;
+}
+
+main {
+    margin: 10px 0 10px 0;
+}
+
+section {
+    text-align: center;
+}
+
+.imgindex {
+    display: flex;
+    justify-content: center;
+}
+
+.prodRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prodRow article {
+    margin: 20px 30px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    width: 20%;
+    padding: 20px;
+}
+
+.prodRow article p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.contentform {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #000000;
+    color: var(--secondary-font-color);
+}
+
