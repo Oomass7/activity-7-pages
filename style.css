@@ -156,6 +156,17 @@ form {
     height: auto;
 }
 
+figure {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+figure img {
+    height: 250px;
+    width: 170px;
+    
+}
 
 
 
